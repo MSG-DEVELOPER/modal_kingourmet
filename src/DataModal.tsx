@@ -18,6 +18,8 @@ const DataModal: React.FC<DataModalProps> = ({ isOpen, onClose, data, showSearch
 
   const columns = data.length > 0 ? Object.keys(data[0]) : [];
 
+  //recuerda que se debe de comentar el tema del filtro,lo dejamos para futuras implementaciones
+
   return (
     <ModalOverlay>
       <ModalContainer>
